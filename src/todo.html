@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+    <style>
+        .App {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+            color: black;
+            padding-top: 4rem;
+        }
+
+        .todo_wrapper {
+            margin-right: 7rem;
+            font-size: 1rem;
+            color: #585858;
+            list-style: none;
+
+        }
+
+        .todo_item {
+            margin-top: 0.5rem;
+            margin-bottom: 0.5rem;
+
+        }
+
+        .todo_item>button {
+            margin: 0 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="App">
+        <form>
+            <label for="addtxt"></label>
+            <input placeholder="" name="addtxt" id="addtxt" type="text" />
+            <button>Add New</button>
+        </form>
+        <ul class="todo_wrapper">
+            <li class="todo_item">DEMO 1
+                <button>Edit</button>
+                <button>Remove</button>
+            </li>
+            <li class="todo_item">DEMO 1
+                <button>Edit</button>
+                <button>Remove</button>
+            </li>
+        </ul>
+    </div>
+
+</body>
+
+</html>
